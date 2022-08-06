@@ -49,7 +49,7 @@ macro(build_yaml_cpp)
       -Wno-dev
   )
 
-  install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/nlopt_install/ DESTINATION ${CMAKE_INSTALL_PREFIX})
+  install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/yaml_cpp_install/ DESTINATION ${CMAKE_INSTALL_PREFIX})
 
   # The external project will install to the build folder, but we'll install that on make install.
   install(
